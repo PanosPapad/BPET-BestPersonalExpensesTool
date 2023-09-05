@@ -38,4 +38,4 @@ def traverse_json_to_match_expenditures():
 
 
 def process_expenditures(matched_category, amount_eur):
-    constants.amounts_per_category[matched_category] += float(amount_eur.replace(',', '.'))
+    constants.amounts_per_category[matched_category] += float(amount_eur)
