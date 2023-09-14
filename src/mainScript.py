@@ -4,11 +4,8 @@ import utils.googleService as googleService
 
 
 def main():
-    # Convert bank statement to json
-    csvToJson.convert_bank_statement()
-
-    # Parse json to match expenses with categories
-    match_expenditures.traverse_json_to_match_expenditures()
+    # Parse csv to match expenses with categories
+    match_expenditures.traverse_csv_to_match_expenditures()
 
     # Authenticate and connect to google sheet
     googleService.connect_google_sheets()

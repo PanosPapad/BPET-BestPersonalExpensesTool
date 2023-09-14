@@ -6,7 +6,7 @@ import utils.appConfig as Env
 data = []
 
 
-def convert_bank_statement():
+def convert_bank_statement_to_json():
     # Open and read the CSV file
     with open(Env.ACCOUNT_OVERVIEW_CSV, 'r') as csvf:
         # Create a CSV reader object
