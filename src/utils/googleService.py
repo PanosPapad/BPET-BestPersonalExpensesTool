@@ -13,4 +13,3 @@ def connect_google_sheets():
 
     # Test step. Remove
     # sheet.update(Constants.data_in_sheet['categories'][0], 12)
-
